@@ -1,0 +1,13 @@
+# Core dependencies
+selenium==4.27.1
+webdriver-manager==4.0.2
+requests==2.32.3
+python-dotenv==1.0.1
+
+# For image_collector.py
+streamlit==1.40.2
+beautifulsoup4==4.12.3
+
+# Optional: HTML parser for BeautifulSoup
+lxml==5.3.0
+//////////////////////

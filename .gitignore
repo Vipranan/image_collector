@@ -45,7 +45,10 @@ env/
 *.jpeg
 *.png
 *.gif
-*.txt
+
+# Scraped text files (but not requirements.txt)
+**/posts/**/*.txt
+**/post_*.txt
 
 # OS
 .DS_Store
