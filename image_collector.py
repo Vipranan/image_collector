@@ -156,6 +156,7 @@ def main():
             chrome_options.add_argument("--headless=new")  # Run Chrome in headless mode (no GUI)
             chrome_options.add_argument("--disable-gpu")  # Disable GPU (recommended for headless)
             chrome_options.add_argument("--no-sandbox")  # Disable sandbox (for some environments)
+            chrome_options.binary_location = "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"  # Use Brave browser
             service = Service(ChromeDriverManager().install())  # Set up ChromeDriver
             driver = webdriver.Chrome(service=service, options=chrome_options)  # Start Chrome browser
             try:
